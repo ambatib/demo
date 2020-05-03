@@ -1,5 +1,6 @@
 package com.example.demp;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -19,7 +20,7 @@ public class HelloController {
 		System.out.println("Hello World");
 	    Calendar c = Calendar.getInstance();
 		return "{\r\n" + 
-				"   \"DATE\": \" "+new Date().toLocaleString()+ "\",\r\n" + 
+				"   \"DATE\": \" "+LocalDate.now()+ "\",\r\n" + 
 				"   \"Month\": \" "+c.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.ENGLISH )+ "\"\r\n" + 
 				"}";
 	}

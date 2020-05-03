@@ -18,5 +18,7 @@ public class LocalProfileSecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
     	httpSecurity.cors().and().csrf().disable();
+    	httpSecurity.headers().frameOptions().disable(); // to avoid --This content can’t be shown in a frame problem
+    	
     }
 }
