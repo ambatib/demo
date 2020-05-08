@@ -1,4 +1,4 @@
-package com.example.demp.eventsourcing;
+package com.example.demo.eventsourcing;
 
 public class MoneyDebitedEvent extends BaseEvent<String> {
 

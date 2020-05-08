@@ -1,4 +1,4 @@
-package com.example.demp;
+package com.example.demo;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Configuration;

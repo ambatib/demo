@@ -1,4 +1,4 @@
-package com.example.demp.eventsourcing;
+package com.example.demo.eventsourcing;
 
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.commandhandling.model.AggregateIdentifier;
